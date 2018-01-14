@@ -2,12 +2,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [0.17.0] - 2017-01-11
+## [0.17.0] - 2018-01-11
 ### Added
 - The `dcc.Graph` component now includes `pointNumbers` inside `selectedData`
 and `hoverData` if the chart type is a `histogram`, `histogram2d`, or `histogram2dcontour`.
 
-## [0.16.0] - 2017-01-11
+## [0.16.0] - 2018-01-11
 ### Added
 - Upgraded Plotly.js, the underlying library behind the
 `dash_core_components.Graph` component, to [version 1.32.0](https://github.com/plotly/plotly.js/releases/tag/v1.32.0).
@@ -53,7 +53,7 @@ See https://github.com/plotly/plotly.js/releases/tag/v1.32.0 for the official no
 
 
 
-## [0.15.5] - 2017-01-08
+## [0.15.5] - 2018-01-08
 ### Fixed
 - The `dash_core_components.Location` and `dash_core_components.Link` properties
 should now work on Internet Explorer.
